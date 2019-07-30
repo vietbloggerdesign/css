@@ -304,6 +304,9 @@
 .theme-button.red {
     background: #d61f11;
 }
+.hidden {
+    display: none!important;
+}
 .processing,.success {
     position: relative;
 }
