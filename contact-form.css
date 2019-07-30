@@ -171,11 +171,11 @@
 }
 .checktoggle {
     position: relative;
-    cursor: pointer;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     width: 0;
+    vertical-align: bottom;
 }
 .checktoggle:before {
     position: absolute;
@@ -183,7 +183,7 @@
     height: 20px;
     width: 20px;
     left: 0;
-    bottom: 1px;
+    bottom: 0;
     background-color: #fafafa;
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
@@ -194,8 +194,7 @@
 }
 .checktoggle+label {
     position: absolute;
-    cursor: pointer;
-    top: 0;
+    top: 2px;
     left: 0;
     width: 40px;
     height: 14px;
@@ -217,7 +216,7 @@
     position: absolute;
     bottom: 3px;
     right: 0;
-    content: url(/images/icon-down.png);
+    content: url(https://vietbloggerdesign.github.io/images/icon-down.png);
 }
 .select-content {
     position: absolute;
@@ -245,12 +244,6 @@
     overflow: hidden;
     overflow-y: auto;
 }
-@media (min-width: 769px) {
-    .select-dropdown, 
-    .select-content li {
-        cursor: pointer;
-    }
-}
 .select-content>li,.select-content li {
     padding: 8px 15px;
 }
@@ -260,7 +253,6 @@
 .select-content>ul>li:hover {
     background-color: #fff9e7;
 }
-
 .theme-button {
     position: relative;
     overflow: hidden;
@@ -334,7 +326,7 @@
     height: 30px;
 }
 .success:before {
-    content: url(/images/icon-check.png);
+    content: url(https://vietbloggerdesign.github.io/images/icon-check.png);
 }
 .processing:after,.success:after {
     margin-top: 35px;
@@ -411,7 +403,7 @@
     .form-group.half {
         width: 50%;
     }
-    .theme-button {
+    .select-dropdown, .select-content li, .checktoggle:before, .checktoggle+label, .theme-button {
         cursor: pointer;
     }
 }
