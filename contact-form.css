@@ -201,7 +201,7 @@
 .checktoggle:checked+label {
     background-color: rgb(208, 225, 252);
 }
-form.blue .bar::before, form.blue .checkbox:checked:before, form.blue .radio:checked:after,form.blue .checktoggle:checked:before {
+form.blue .bar::before, form.blue .checkbox:checked:before, form.blue .radio:checked:after, form.blue .checktoggle:checked:before {
     background-color: #4285f4;
 }
 form.light-blue .bar::before, form.light-blue .checkbox:checked:before, form.light-blue .radio:checked:after, form.light-blue .checktoggle:checked:before {
