@@ -7,8 +7,7 @@
 }
 .form-group {
     position: relative;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin: 1.5rem 0;
 }
 .form-group .check-box {
     position: relative;
@@ -207,11 +206,9 @@
 }
 .select-dropdown::before {
     position: absolute;
-    bottom: 2px;
+    bottom: 3px;
     right: 0;
-    font-family: 'themify';
-    content: "\e64b";
-    font-size: 12px;
+    content: url(/images/icon-down.png);
 }
 .select-content {
     position: absolute;
@@ -254,6 +251,7 @@
 .select-content>ul>li:hover {
     background-color: #fff9e7;
 }
+
 .theme-button {
     position: relative;
     overflow: hidden;
@@ -401,7 +399,7 @@
     }
 }
 @media (min-width: 769px) {
-    .form-group: not(.textarea): not(.checked) {
+    .form-group.half {
         width: 50%;
     }
     .theme-button {
