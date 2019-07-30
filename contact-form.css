@@ -106,7 +106,7 @@
     height: 16px;
     top: 0;
     left: 0;
-    background-color: $(posts.background.color);
+    background-color: #fff;
     border: 2px solid rgba(0, 0, 0, 0.54);
     border-radius: 3px;
     transition: all .3s;
@@ -274,7 +274,7 @@
     transition: opacity .15s;
 }
 .theme-button::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 50%;
     left: 50%;
@@ -316,18 +316,18 @@
 .processing:before {
     top: calc(50% - 15px);
     left: calc(50% - 15px);
-    content: '';
+    content: "";
     border-top: 3px solid #33b5e5 !important;
     border-right: 3px solid #33b5e5 !important;
     border-bottom: 3px solid #33b5e5 !important;
-    border-left: 3px solid $(posts.background.color);
+    border-left: 3px solid #fff;
     animation: spin .6s infinite linear;
     border-radius: 50%;
     width: 30px;
     height: 30px;
 }
 .success:before {
-    content: url(https: //3.bp.blogspot.com/-zrCNeQiaQ4o/XQoXz8AtM8I/AAAAAAAARG4/IKT6tkFtU4ML5zttnR39oRYW7M9oylruACLcBGAs/s46/icon-check.png);
+    content: url(/images/icon-check.png);
 }
 .processing:after,.success:after {
     margin-top: 35px;
@@ -339,10 +339,10 @@
     transform: translate(-50%, -50%);
 }
 .processing:after {
-    content: 'Đang gửi...';
+    content: "Đang gửi...";
 }
 .success:after {
-    content: 'Đã gửi thành công!';
+    content: "Đã gửi thành công!";
 }
 @keyframes buttonripple {
     0% {
