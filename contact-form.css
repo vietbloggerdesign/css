@@ -216,7 +216,7 @@
     position: absolute;
     bottom: 3px;
     right: 0;
-    content: url(https://vietbloggerdesign.github.io/images/icon-down.png);
+    content: url(/images/icon-down.png);
 }
 .select-content {
     position: absolute;
@@ -326,7 +326,7 @@
     height: 30px;
 }
 .success:before {
-    content: url(https://vietbloggerdesign.github.io/images/icon-check.png);
+    content: url(/images/icon-check.png);
 }
 .processing:after,.success:after {
     margin-top: 35px;
