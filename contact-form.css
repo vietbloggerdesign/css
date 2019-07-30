@@ -216,7 +216,7 @@
 .select-content {
     position: absolute;
     top: 0;
-    background: $(posts.background.color);
+    background: #fff;
     border: 1px solid #ddd;
     margin: 0 !important;
     z-index: 7;
@@ -289,11 +289,6 @@
 .theme-button:hover::after {
     animation: buttonripple 1s ease-out;
     text-decoration: none;
-}
-@media(min-width: 769px) {
-    button.theme-button {
-        cursor: pointer;
-    }
 }
 .theme-button.blue {
     background: #1a73e8;
@@ -396,5 +391,8 @@
 @media (min-width: 769px) {
     .form-group: not(.textarea): not(.checked) {
         width: 50%;
+    }
+    .theme-button {
+        cursor: pointer;
     }
 }
