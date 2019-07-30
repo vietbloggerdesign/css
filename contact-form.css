@@ -47,30 +47,6 @@
     transition: left 0.28s ease, width 0.28s ease;
     z-index: 2;
 }
-form.blue .bar::before {
-    background-color: #4285f4;
-}
-form.light-blue .bar::before {
-    background-color: #03a9f4;
-}
-form.indigo-blue .bar::before {
-    background-color: #3f51b5;
-}
-form.green .bar::before {
-    background-color: #4caf50;
-}
-form.purple .bar::before {
-    background-color: #673ab7;
-}
-form.orange .bar::before {
-    background-color: #ff9800;
-}
-form.red .bar::before {
-    background-color: #db4437;
-}
-form.orange-red .bar::before {
-    background-color: #ff5722;
-}
 .form-group .input,.form-group textarea {
     width: 100%;
     position: relative;
@@ -225,28 +201,28 @@ form.orange-red .bar::before {
 .checktoggle:checked+label {
     background-color: rgb(208, 225, 252);
 }
-form.blue .checkbox:checked:before, form.blue .radio:checked:after,form.blue .checktoggle:checked:before {
+form.blue .bar::before, form.blue .checkbox:checked:before, form.blue .radio:checked:after,form.blue .checktoggle:checked:before {
     background-color: #4285f4;
 }
-form.light-blue .checkbox:checked:before, form.light-blue .radio:checked:after, form.light-blue .checktoggle:checked:before {
+form.light-blue .bar::before, form.light-blue .checkbox:checked:before, form.light-blue .radio:checked:after, form.light-blue .checktoggle:checked:before {
     background-color: #03a9f4;
 }
-form.indigo-blue .checkbox:checked:before, form.indigo-blue .radio:checked:after, form.indigo-blue .checktoggle:checked:before {
+form.indigo-blue .bar::before, form.indigo-blue .checkbox:checked:before, form.indigo-blue .radio:checked:after, form.indigo-blue .checktoggle:checked:before {
     background-color: #3f51b5;
 }
-form.green .checkbox:checked:before, form.green .radio:checked:after, form.green .checktoggle:checked:before {
+form.green .bar::before, form.green .checkbox:checked:before, form.green .radio:checked:after, form.green .checktoggle:checked:before {
     background-color: #4caf50;
 }
-form.purple .checkbox:checked:before, form.purple .radio:checked:after, form.purple .checktoggle:checked:before {
+form.purple .bar::before, form.purple .checkbox:checked:before, form.purple .radio:checked:after, form.purple .checktoggle:checked:before {
     background-color: #673ab7;
 }
-form.orange .checkbox:checked:before, form.orange .radio:checked:after, form.orange .checktoggle:checked:before {
+form.orange .bar::before, form.orange .checkbox:checked:before, form.orange .radio:checked:after, form.orange .checktoggle:checked:before {
     background-color: #ff9800;
 }
-form.red .checkbox:checked:before, form.red .radio:checked:after, form.red .checktoggle:checked:before {
+form.red .bar::before, form.red .checkbox:checked:before, form.red .radio:checked:after, form.red .checktoggle:checked:before {
     background-color: #db4437;
 }
-form.orange-red .checkbox:checked:before, form.orange-red .radio:checked:after, form.orange-red .checktoggle:checked:before {
+form.orange-red .bar::before, form.orange-red .checkbox:checked:before, form.orange-red .radio:checked:after, form.orange-red .checktoggle:checked:before {
     background-color: #ff5722;
 }
 form.blue .checkbox:checked:before, form.blue .radio:checked:before {
